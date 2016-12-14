@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   ImageInfo.plist
+   MainScrollView
+
+   Created by Rillakkuma on 2016/12/14.
+   Copyright (c) 2016年 Rillakkuma. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+		<key>0.png</key>
+		<string>WATCH，它，终于来了。</string>
+		<key>1.png</key>
+		<string>iPhone 6，无双，有此一双。</string>
+		<key>2.png</key>
+		<string>MacBook，轻于时代，先于时代。</string>
+		<key>3.png</key>
+		<string>iPad Air 2，轻轻地，改变一切。</string>
+		<key>4.png</key>
+		<string>iOS 9，它，将要到来。</string>
+    </dict>
+</plist>
