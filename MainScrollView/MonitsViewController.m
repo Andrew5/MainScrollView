@@ -93,6 +93,18 @@
 	[self.mainScrollView addSubview:vc.view];
 	vc.view.frame = CGRectMake(offsetX, 0, self.view.frame.size.width, self.view.frame.size.height);
 }
+#pragma mark - UIScrollViewDelegate
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+	
+	// 计算滚动到哪一页
+	NSInteger index = scrollView.contentOffset.x / scrollView.frame.size.width;
+	
+	// 1.添加子控制器view
+	[self showVc:index];
+	
+	// 2.把对应的标题选中
+	[self.SG titleBtnSelectedWithScrollView:scrollView];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
